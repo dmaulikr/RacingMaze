@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040226E018E61F710009245C /* BITMAZESettingsPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 040226DF18E61F710009245C /* BITMAZESettingsPage.m */; };
+		041EE63E1912A3400002E0E4 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EE63D1912A3400002E0E4 /* AudioPlayer.m */; };
+		0439FD4118EE505300EBEA69 /* patterns.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0439FD4018EE505300EBEA69 /* patterns.txt */; };
+		043A630B18EA45FA00ED60DF /* BITMAZEGameStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A630A18EA45FA00ED60DF /* BITMAZEGameStore.m */; };
+		043A630E18EA480500ED60DF /* BITMAZELinkPages.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A630D18EA480500ED60DF /* BITMAZELinkPages.m */; };
+		0451173218EFA9FF00FDC5BC /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0451173118EFA9FE00FDC5BC /* iAd.framework */; };
+		046A612718E8EA74009CDF8F /* BackgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 046A612618E8EA74009CDF8F /* BackgroundMusic.mp3 */; };
+		046A612918E8EAAC009CDF8F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046A612818E8EAAC009CDF8F /* AVFoundation.framework */; };
+		0472D6E018EE39A70046757E /* powerups.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0472D6DF18EE39A70046757E /* powerups.txt */; };
+		0481537918EB87BE00AE793C /* BITMAZEScorePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0481537818EB87BE00AE793C /* BITMAZEScorePage.m */; };
+		0486DA27191293A100C372C1 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0486DA26191293A100C372C1 /* GameKit.framework */; };
+		04B8CCE018E721870022ACC9 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 04B8CCDE18E721860022ACC9 /* background-music-aac.caf */; };
+		04B8CCE118E721870022ACC9 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 04B8CCDF18E721870022ACC9 /* pew-pew-lei.caf */; };
+		04D2F39D19146C2B002839D8 /* GameKitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F39C19146C2B002839D8 /* GameKitHelper.m */; };
+		04D79C5918E3AFEB0086CF75 /* BITMAZEGamePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C5818E3AFEB0086CF75 /* BITMAZEGamePage.m */; };
+		04E4A2F618E25F3700BD87E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E4A2F518E25F3700BD87E3 /* Foundation.framework */; };
+		04E4A2F818E25F3700BD87E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E4A2F718E25F3700BD87E3 /* CoreGraphics.framework */; };
+		04E4A2FA18E25F3700BD87E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E4A2F918E25F3700BD87E3 /* UIKit.framework */; };
+		04E4A2FC18E25F3700BD87E3 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E4A2FB18E25F3700BD87E3 /* SpriteKit.framework */; };
+		04E4A30218E25F3700BD87E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04E4A30018E25F3700BD87E3 /* InfoPlist.strings */; };
+		04E4A30418E25F3700BD87E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4A30318E25F3700BD87E3 /* main.m */; };
+		04E4A30818E25F3700BD87E3 /* BITMAZEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4A30718E25F3700BD87E3 /* BITMAZEAppDelegate.m */; };
+		04E4A30B18E25F3700BD87E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E4A30918E25F3700BD87E3 /* Main.storyboard */; };
+		04E4A30E18E25F3700BD87E3 /* BITMAZEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4A30D18E25F3700BD87E3 /* BITMAZEViewController.m */; };
+		04E4A31518E25F3700BD87E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E4A31418E25F3700BD87E3 /* Images.xcassets */; };
+		04E4A31C18E25F3700BD87E3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E4A31B18E25F3700BD87E3 /* XCTest.framework */; };
+		04E4A31D18E25F3700BD87E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E4A2F518E25F3700BD87E3 /* Foundation.framework */; };
+		04E4A31E18E25F3700BD87E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E4A2F918E25F3700BD87E3 /* UIKit.framework */; };
+		04E4A32618E25F3800BD87E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04E4A32418E25F3700BD87E3 /* InfoPlist.strings */; };
+		04E4A32818E25F3800BD87E3 /* Bit_MazeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4A32718E25F3800BD87E3 /* Bit_MazeTests.m */; };
+		04F8A98E18E3AB5000A34F4D /* BITMAZEHomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8A98D18E3AB5000A34F4D /* BITMAZEHomePage.m */; };
+		04FC8F7918EB6CE40012B0BD /* BITMAZEFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC8F7818EB6CE40012B0BD /* BITMAZEFileReader.m */; };
+		04FFF20918EF90B600A9C189 /* themes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04FFF20818EF90B600A9C189 /* themes.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E4A31F18E25F3700BD87E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E4A2EA18E25F3700BD87E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E4A2F118E25F3700BD87E3;
+			remoteInfo = "Bit Maze";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040226DE18E61F710009245C /* BITMAZESettingsPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BITMAZESettingsPage.h; sourceTree = "<group>"; };
+		040226DF18E61F710009245C /* BITMAZESettingsPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BITMAZESettingsPage.m; sourceTree = "<group>"; };
+		041EE63C1912A3400002E0E4 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		041EE63D1912A3400002E0E4 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		0439FD4018EE505300EBEA69 /* patterns.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = patterns.txt; sourceTree = "<group>"; };
+		043A630918EA45FA00ED60DF /* BITMAZEGameStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BITMAZEGameStore.h; sourceTree = "<group>"; };
+		043A630A18EA45FA00ED60DF /* BITMAZEGameStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BITMAZEGameStore.m; sourceTree = "<group>"; };
+		043A630C18EA480500ED60DF /* BITMAZELinkPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BITMAZELinkPages.h; sourceTree = "<group>"; };
+		043A630D18EA480500ED60DF /* BITMAZELinkPages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BITMAZELinkPages.m; sourceTree = "<group>"; };
+		0451173118EFA9FE00FDC5BC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		046A612618E8EA74009CDF8F /* BackgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackgroundMusic.mp3; sourceTree = "<group>"; };
+		046A612818E8EAAC009CDF8F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0472D6DF18EE39A70046757E /* powerups.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = powerups.txt; sourceTree = "<group>"; };
+		0481537718EB87BE00AE793C /* BITMAZEScorePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BITMAZEScorePage.h; sourceTree = "<group>"; };
+		0481537818EB87BE00AE793C /* BITMAZEScorePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BITMAZEScorePage.m; sourceTree = "<group>"; };
+		0486DA26191293A100C372C1 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		04B8CCDE18E721860022ACC9 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		04B8CCDF18E721870022ACC9 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		04D2F39B19146C2B002839D8 /* GameKitHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameKitHelper.h; sourceTree = "<group>"; };
+		04D2F39C19146C2B002839D8 /* GameKitHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameKitHelper.m; sourceTree = "<group>"; };
+		04D79C5718E3AFEB0086CF75 /* BITMAZEGamePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BITMAZEGamePage.h; sourceTree = "<group>"; };
+		04D79C5818E3AFEB0086CF75 /* BITMAZEGamePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BITMAZEGamePage.m; sourceTree = "<group>"; };
+		04E4A2F218E25F3700BD87E3 /* Bit Maze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bit Maze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E4A2F518E25F3700BD87E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04E4A2F718E25F3700BD87E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04E4A2F918E25F3700BD87E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04E4A2FB18E25F3700BD87E3 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		04E4A2FF18E25F3700BD87E3 /* Bit Maze-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bit Maze-Info.plist"; sourceTree = "<group>"; };
+		04E4A30118E25F3700BD87E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04E4A30318E25F3700BD87E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E4A30518E25F3700BD87E3 /* Bit Maze-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bit Maze-Prefix.pch"; sourceTree = "<group>"; };
+		04E4A30618E25F3700BD87E3 /* BITMAZEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BITMAZEAppDelegate.h; sourceTree = "<group>"; };
+		04E4A30718E25F3700BD87E3 /* BITMAZEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BITMAZEAppDelegate.m; sourceTree = "<group>"; };
+		04E4A30A18E25F3700BD87E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E4A30C18E25F3700BD87E3 /* BITMAZEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BITMAZEViewController.h; sourceTree = "<group>"; };
+		04E4A30D18E25F3700BD87E3 /* BITMAZEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BITMAZEViewController.m; sourceTree = "<group>"; };
+		04E4A31418E25F3700BD87E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04E4A31A18E25F3700BD87E3 /* Bit MazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bit MazeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E4A31B18E25F3700BD87E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04E4A32318E25F3700BD87E3 /* Bit MazeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bit MazeTests-Info.plist"; sourceTree = "<group>"; };
+		04E4A32518E25F3700BD87E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04E4A32718E25F3800BD87E3 /* Bit_MazeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bit_MazeTests.m; sourceTree = "<group>"; };
+		04F8A98C18E3AB5000A34F4D /* BITMAZEHomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BITMAZEHomePage.h; sourceTree = "<group>"; };
+		04F8A98D18E3AB5000A34F4D /* BITMAZEHomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BITMAZEHomePage.m; sourceTree = "<group>"; };
+		04FC8F7718EB6CE40012B0BD /* BITMAZEFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BITMAZEFileReader.h; sourceTree = "<group>"; };
+		04FC8F7818EB6CE40012B0BD /* BITMAZEFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BITMAZEFileReader.m; sourceTree = "<group>"; };
+		04FFF20818EF90B600A9C189 /* themes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = themes.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E4A2EF18E25F3700BD87E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0451173218EFA9FF00FDC5BC /* iAd.framework in Frameworks */,
+				046A612918E8EAAC009CDF8F /* AVFoundation.framework in Frameworks */,
+				0486DA27191293A100C372C1 /* GameKit.framework in Frameworks */,
+				04E4A2F818E25F3700BD87E3 /* CoreGraphics.framework in Frameworks */,
+				04E4A2FA18E25F3700BD87E3 /* UIKit.framework in Frameworks */,
+				04E4A2FC18E25F3700BD87E3 /* SpriteKit.framework in Frameworks */,
+				04E4A2F618E25F3700BD87E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E4A31718E25F3700BD87E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E4A31C18E25F3700BD87E3 /* XCTest.framework in Frameworks */,
+				04E4A31E18E25F3700BD87E3 /* UIKit.framework in Frameworks */,
+				04E4A31D18E25F3700BD87E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B8CCDD18E721860022ACC9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				04B8CCDE18E721860022ACC9 /* background-music-aac.caf */,
+				04B8CCDF18E721870022ACC9 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		04D2F39A19146C16002839D8 /* GameKit */ = {
+			isa = PBXGroup;
+			children = (
+				04D2F39B19146C2B002839D8 /* GameKitHelper.h */,
+				04D2F39C19146C2B002839D8 /* GameKitHelper.m */,
+			);
+			name = GameKit;
+			sourceTree = "<group>";
+		};
+		04E4A2E918E25F3700BD87E3 = {
+			isa = PBXGroup;
+			children = (
+				04E4A2FD18E25F3700BD87E3 /* Bit Maze */,
+				04E4A32118E25F3700BD87E3 /* Bit MazeTests */,
+				04E4A2F418E25F3700BD87E3 /* Frameworks */,
+				04E4A2F318E25F3700BD87E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E4A2F318E25F3700BD87E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E4A2F218E25F3700BD87E3 /* Bit Maze.app */,
+				04E4A31A18E25F3700BD87E3 /* Bit MazeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E4A2F418E25F3700BD87E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0486DA26191293A100C372C1 /* GameKit.framework */,
+				0451173118EFA9FE00FDC5BC /* iAd.framework */,
+				046A612818E8EAAC009CDF8F /* AVFoundation.framework */,
+				04E4A2F518E25F3700BD87E3 /* Foundation.framework */,
+				04E4A2F718E25F3700BD87E3 /* CoreGraphics.framework */,
+				04E4A2F918E25F3700BD87E3 /* UIKit.framework */,
+				04E4A2FB18E25F3700BD87E3 /* SpriteKit.framework */,
+				04E4A31B18E25F3700BD87E3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04E4A2FD18E25F3700BD87E3 /* Bit Maze */ = {
+			isa = PBXGroup;
+			children = (
+				04D2F39A19146C16002839D8 /* GameKit */,
+				04E4A30618E25F3700BD87E3 /* BITMAZEAppDelegate.h */,
+				04E4A30718E25F3700BD87E3 /* BITMAZEAppDelegate.m */,
+				04E4A30918E25F3700BD87E3 /* Main.storyboard */,
+				046A612618E8EA74009CDF8F /* BackgroundMusic.mp3 */,
+				04E4A30C18E25F3700BD87E3 /* BITMAZEViewController.h */,
+				04E4A30D18E25F3700BD87E3 /* BITMAZEViewController.m */,
+				04B8CCDD18E721860022ACC9 /* Sounds */,
+				04E4A31418E25F3700BD87E3 /* Images.xcassets */,
+				04E4A2FE18E25F3700BD87E3 /* Supporting Files */,
+				04F8A98C18E3AB5000A34F4D /* BITMAZEHomePage.h */,
+				04F8A98D18E3AB5000A34F4D /* BITMAZEHomePage.m */,
+				04D79C5718E3AFEB0086CF75 /* BITMAZEGamePage.h */,
+				04D79C5818E3AFEB0086CF75 /* BITMAZEGamePage.m */,
+				040226DE18E61F710009245C /* BITMAZESettingsPage.h */,
+				040226DF18E61F710009245C /* BITMAZESettingsPage.m */,
+				043A630918EA45FA00ED60DF /* BITMAZEGameStore.h */,
+				043A630A18EA45FA00ED60DF /* BITMAZEGameStore.m */,
+				043A630C18EA480500ED60DF /* BITMAZELinkPages.h */,
+				043A630D18EA480500ED60DF /* BITMAZELinkPages.m */,
+				04FC8F7718EB6CE40012B0BD /* BITMAZEFileReader.h */,
+				04FC8F7818EB6CE40012B0BD /* BITMAZEFileReader.m */,
+				0481537718EB87BE00AE793C /* BITMAZEScorePage.h */,
+				0481537818EB87BE00AE793C /* BITMAZEScorePage.m */,
+				0472D6DF18EE39A70046757E /* powerups.txt */,
+				0439FD4018EE505300EBEA69 /* patterns.txt */,
+				04FFF20818EF90B600A9C189 /* themes.txt */,
+				041EE63C1912A3400002E0E4 /* AudioPlayer.h */,
+				041EE63D1912A3400002E0E4 /* AudioPlayer.m */,
+			);
+			path = "Bit Maze";
+			sourceTree = "<group>";
+		};
+		04E4A2FE18E25F3700BD87E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E4A2FF18E25F3700BD87E3 /* Bit Maze-Info.plist */,
+				04E4A30018E25F3700BD87E3 /* InfoPlist.strings */,
+				04E4A30318E25F3700BD87E3 /* main.m */,
+				04E4A30518E25F3700BD87E3 /* Bit Maze-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E4A32118E25F3700BD87E3 /* Bit MazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E4A32718E25F3800BD87E3 /* Bit_MazeTests.m */,
+				04E4A32218E25F3700BD87E3 /* Supporting Files */,
+			);
+			path = "Bit MazeTests";
+			sourceTree = "<group>";
+		};
+		04E4A32218E25F3700BD87E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E4A32318E25F3700BD87E3 /* Bit MazeTests-Info.plist */,
+				04E4A32418E25F3700BD87E3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E4A2F118E25F3700BD87E3 /* Bit Maze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E4A32B18E25F3800BD87E3 /* Build configuration list for PBXNativeTarget "Bit Maze" */;
+			buildPhases = (
+				04E4A2EE18E25F3700BD87E3 /* Sources */,
+				04E4A2EF18E25F3700BD87E3 /* Frameworks */,
+				04E4A2F018E25F3700BD87E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bit Maze";
+			productName = "Bit Maze";
+			productReference = 04E4A2F218E25F3700BD87E3 /* Bit Maze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E4A31918E25F3700BD87E3 /* Bit MazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E4A32E18E25F3800BD87E3 /* Build configuration list for PBXNativeTarget "Bit MazeTests" */;
+			buildPhases = (
+				04E4A31618E25F3700BD87E3 /* Sources */,
+				04E4A31718E25F3700BD87E3 /* Frameworks */,
+				04E4A31818E25F3700BD87E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E4A32018E25F3700BD87E3 /* PBXTargetDependency */,
+			);
+			name = "Bit MazeTests";
+			productName = "Bit MazeTests";
+			productReference = 04E4A31A18E25F3700BD87E3 /* Bit MazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E4A2EA18E25F3700BD87E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BITMAZE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Montablo;
+				TargetAttributes = {
+					04E4A2F118E25F3700BD87E3 = {
+						DevelopmentTeam = LR7DCMSEBD;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					04E4A31918E25F3700BD87E3 = {
+						TestTargetID = 04E4A2F118E25F3700BD87E3;
+					};
+				};
+			};
+			buildConfigurationList = 04E4A2ED18E25F3700BD87E3 /* Build configuration list for PBXProject "Bit Maze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E4A2E918E25F3700BD87E3;
+			productRefGroup = 04E4A2F318E25F3700BD87E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E4A2F118E25F3700BD87E3 /* Bit Maze */,
+				04E4A31918E25F3700BD87E3 /* Bit MazeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E4A2F018E25F3700BD87E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B8CCE118E721870022ACC9 /* pew-pew-lei.caf in Resources */,
+				04E4A30218E25F3700BD87E3 /* InfoPlist.strings in Resources */,
+				0472D6E018EE39A70046757E /* powerups.txt in Resources */,
+				0439FD4118EE505300EBEA69 /* patterns.txt in Resources */,
+				046A612718E8EA74009CDF8F /* BackgroundMusic.mp3 in Resources */,
+				04E4A31518E25F3700BD87E3 /* Images.xcassets in Resources */,
+				04B8CCE018E721870022ACC9 /* background-music-aac.caf in Resources */,
+				04E4A30B18E25F3700BD87E3 /* Main.storyboard in Resources */,
+				04FFF20918EF90B600A9C189 /* themes.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E4A31818E25F3700BD87E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E4A32618E25F3800BD87E3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E4A2EE18E25F3700BD87E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0481537918EB87BE00AE793C /* BITMAZEScorePage.m in Sources */,
+				04E4A30418E25F3700BD87E3 /* main.m in Sources */,
+				04E4A30818E25F3700BD87E3 /* BITMAZEAppDelegate.m in Sources */,
+				04D2F39D19146C2B002839D8 /* GameKitHelper.m in Sources */,
+				04E4A30E18E25F3700BD87E3 /* BITMAZEViewController.m in Sources */,
+				04D79C5918E3AFEB0086CF75 /* BITMAZEGamePage.m in Sources */,
+				04FC8F7918EB6CE40012B0BD /* BITMAZEFileReader.m in Sources */,
+				043A630E18EA480500ED60DF /* BITMAZELinkPages.m in Sources */,
+				043A630B18EA45FA00ED60DF /* BITMAZEGameStore.m in Sources */,
+				040226E018E61F710009245C /* BITMAZESettingsPage.m in Sources */,
+				041EE63E1912A3400002E0E4 /* AudioPlayer.m in Sources */,
+				04F8A98E18E3AB5000A34F4D /* BITMAZEHomePage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E4A31618E25F3700BD87E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E4A32818E25F3800BD87E3 /* Bit_MazeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E4A32018E25F3700BD87E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E4A2F118E25F3700BD87E3 /* Bit Maze */;
+			targetProxy = 04E4A31F18E25F3700BD87E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04E4A30018E25F3700BD87E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E4A30118E25F3700BD87E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04E4A30918E25F3700BD87E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E4A30A18E25F3700BD87E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E4A32418E25F3700BD87E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E4A32518E25F3700BD87E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E4A32918E25F3800BD87E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04E4A32A18E25F3800BD87E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E4A32C18E25F3800BD87E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bit Maze/Bit Maze-Prefix.pch";
+				INFOPLIST_FILE = "Bit Maze/Bit Maze-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04E4A32D18E25F3800BD87E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bit Maze/Bit Maze-Prefix.pch";
+				INFOPLIST_FILE = "Bit Maze/Bit Maze-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04E4A32F18E25F3800BD87E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bit Maze.app/Bit Maze";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bit Maze/Bit Maze-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bit MazeTests/Bit MazeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04E4A33018E25F3800BD87E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bit Maze.app/Bit Maze";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bit Maze/Bit Maze-Prefix.pch";
+				INFOPLIST_FILE = "Bit MazeTests/Bit MazeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E4A2ED18E25F3700BD87E3 /* Build configuration list for PBXProject "Bit Maze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E4A32918E25F3800BD87E3 /* Debug */,
+				04E4A32A18E25F3800BD87E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E4A32B18E25F3800BD87E3 /* Build configuration list for PBXNativeTarget "Bit Maze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E4A32C18E25F3800BD87E3 /* Debug */,
+				04E4A32D18E25F3800BD87E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E4A32E18E25F3800BD87E3 /* Build configuration list for PBXNativeTarget "Bit MazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E4A32F18E25F3800BD87E3 /* Debug */,
+				04E4A33018E25F3800BD87E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E4A2EA18E25F3700BD87E3 /* Project object */;
+}
