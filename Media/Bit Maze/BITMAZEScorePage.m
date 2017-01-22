@@ -36,7 +36,7 @@
         titleLabel.position = CGPointMake(CGRectGetMidX(self.frame), titleY);
         
         SKLabelNode *labelLabel = [SKLabelNode labelNodeWithFontNamed:@"Helvetica Neue UltraLight"];
-        labelLabel.text = @"Bit Maze";
+        labelLabel.text = @"Maze Blast";
         labelLabel.fontSize = 30;
         labelLabel.zPosition = 100;
         labelLabel.position = CGPointMake(CGRectGetMidX(self.frame), titleY+50);

@@ -35,7 +35,7 @@
         homeButton.position = CGPointMake(CGRectGetMidX(self.frame), 2*(CGRectGetHeight(self.frame)/3) + 100);
         
         SKLabelNode *titleLabel = [SKLabelNode labelNodeWithFontNamed:@"Helvetica Neue UltraLight"];
-        titleLabel.text = @"Bit Maze";
+        titleLabel.text = @"Maze Blast";
         titleLabel.fontSize = 30;
         titleLabel.zPosition = 100;
         float titleY = 2*(CGRectGetHeight(self.frame))/3 + 150;
