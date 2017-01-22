@@ -296,7 +296,7 @@
 				ORGANIZATIONNAME = Montablo;
 				TargetAttributes = {
 					04E4A2F118E25F3700BD87E3 = {
-						DevelopmentTeam = LR7DCMSEBD;
+						DevelopmentTeam = VC346ZAH77;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 1;
@@ -497,10 +497,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VC346ZAH77;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bit Maze/Bit Maze-Prefix.pch";
 				INFOPLIST_FILE = "Bit Maze/Bit Maze-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.graphic.mazerun.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
@@ -515,10 +517,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VC346ZAH77;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bit Maze/Bit Maze-Prefix.pch";
 				INFOPLIST_FILE = "Bit Maze/Bit Maze-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.graphic.mazerun.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
