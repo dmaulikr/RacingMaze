@@ -502,7 +502,7 @@
 				GCC_PREFIX_HEADER = "Bit Maze/Bit Maze-Prefix.pch";
 				INFOPLIST_FILE = "Bit Maze/Bit Maze-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.pokedex2.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studio.racdot.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
@@ -522,7 +522,7 @@
 				GCC_PREFIX_HEADER = "Bit Maze/Bit Maze-Prefix.pch";
 				INFOPLIST_FILE = "Bit Maze/Bit Maze-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.pokedex2.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studio.racdot.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
